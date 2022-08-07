@@ -1,0 +1,487 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+}
+
+header .links {
+    display: flex;
+    gap: 41px;
+    transform: translateX(100px);
+}
+
+header .links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+}
+
+header .account {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    width: 1440px;
+}
+
+.about {
+    display: flex;
+    width: 1194px;
+    height: 677px;
+    margin-left: 70px;
+}
+
+.about .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 472px;
+    height: 111px;
+    margin-top: 128px;
+    gap: 20px;
+    margin-left: 39px;
+}
+
+.about .desc h1 {
+    font-size: 44px;
+    font-family: 'Helvetica Neue';
+    font-weight: 700;
+}
+
+.about .desc p {
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+
+.about .desc .btns {
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+
+}
+
+.about .desc .btns button {
+    width: 196px;
+    height: 50px;
+    background-color: #01601B;
+    color: white;
+    border-radius: 15px;
+}
+
+.about .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 700px;
+    margin-left: 127px;
+    gap: 17px;
+}
+
+.about .social .line {
+    width: 1px;
+    height: 173px;
+    background-color: black;
+    transform: translateX(26px);
+
+}
+
+.plants {
+    width: 1304px;
+    margin: auto;
+}
+
+.plants .title,
+.plants-care h1 {
+    margin-top: 119px;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.plants .cards .card button {
+    width: 216px;
+    height: 50px;
+    transform: translateY(70px);
+}
+
+.plants .cards {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.plants .cards .card .btn {
+    background: rgba(217, 217, 217, 0.5);
+    width: 363px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.plants .cards .card .btn button {
+    font-size: 19px;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    color: #01601B;
+    border-radius: 10px;
+}
+
+.plants .cards .card .btn:hover {
+    transition: .4s;
+    opacity: 1;
+}
+
+.plants .cards .card .img {
+    background-image: url(assets/1.svg);
+}
+
+.plants .cards .card .img2 {
+    background-image: url(assets/2.svg);
+}
+
+.plants .cards .card .img3 {
+    background-image: url(assets/3.svg);
+}
+
+.plants .cards .card .img4 {
+    background-image: url(assets/4.svg);
+}
+
+.plants .cards .card .img5 {
+    background-image: url(assets/5.svg);
+}
+
+.plants .cards .card .img6 {
+    background-image: url(assets/6.svg);
+}
+
+
+.plants .cards .card .desc {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    width: 368px;
+    height: 30px;
+    gap: 130px;
+    justify-content: center;
+}
+
+.plants .cards .card .desc h1 {
+    margin-top: 0;
+    font-size: 19px;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    color: white;
+}
+
+.plants .cards .card .desc h2 {
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    color: white;
+}
+
+.plants a,
+.plants-care a {
+    display: flex;
+    justify-content: end;
+    color: #01601B;
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.plants-care {
+    width: 1304px;
+    margin: auto;
+}
+
+.plants-care .blogs {
+    display: flex;
+    gap: 35px;
+}
+
+.plants-care .blogs h1 {
+    margin: 15px 0 30px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.plants-care .blogs p {
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    width: 628px;
+}
+
+.access {
+    display: flex;
+    margin-top: 200px;
+}
+
+.access h1 {
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.access p {
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    font-size: 20px;
+    width: 511px;
+}
+
+.access .r-desc .paragraph {
+    width: 744px;
+    height: 389px;
+    background-color: #ECF1EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-86px);
+    border-radius: 30px;
+}
+
+.access .r-desc {
+    margin-left: -126px;
+}
+
+footer .top {
+    width: 1440px;
+    height: 435px;
+    background-color: #255338;
+    margin-top: 195px;
+    display: flex;
+    gap: 89px;
+}
+
+footer .logo {
+    margin: 36px 0 0 71px;
+}
+
+footer .logo .logo-img {
+    margin-bottom: 86px;
+}
+
+footer .logo h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 21px;
+}
+
+footer .logo .input {
+    width: 307px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 53px;
+}
+
+footer .logo .input input {
+    background: none;
+    border: none;
+}
+
+::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+footer .logo .social-network {
+    display: flex;
+    gap: 25px;
+}
+
+footer .links {
+    display: flex;
+    gap: 126px;
+    margin-top: 37px;
+}
+
+footer .links .company {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .links .company h2 {
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: 18;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+footer .links .company a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: 18;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+footer .bottom {
+    height: 3px;
+    background-color: white;
+    width: 1440px;
+    margin-top: -90px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+footer .bottom a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-family: 'Helvetica Neue';
+    font-size: 18;
+    font-weight: 400;
+}
+
+.contact-container {
+    margin-top: 195px;
+    width: 1440px
+}
+
+.contact-container .background {
+    width: 1440px;
+    height: 1080px;
+    background-image: url(assets/contact.svg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.contact-container .background .form {
+    width: 1402px;
+    height: 1036px;
+    margin: auto;
+    background: rgba(1, 96, 27, 0.5);
+}
+
+.contact-container .background .form h1 {
+    font-family: 'Helvetica Neue';
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin: 28px 423px 114px 480px;
+}
+
+.contact-container .background .form .contact {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+.contact-container .background .form .contact h2 {
+    color: white;
+    margin-top: 41px;
+    font-family: 'Helvetica Neue';
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.contact-container .background .form .register {
+    width: 707px;
+    height: 469px;
+    margin: auto;
+}
+
+.contact-container .background .form .register .names {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-container .background .form .register .names h2 {
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 52px;
+}
+
+.contact-container .background .form .register .names .name-input {
+    width: 294px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.contact-container .background .form .register .names .name-input input {
+    border: none;
+}
+
+.contact-container .background .form .register h3 {
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+
+.contact-container .background .form .register textarea {
+    width: 707px;
+    height: 154px;
+    border-radius: 10px;
+    margin-top: 11px;
+}
+
+.map h1 {
+    font-family: 'Helvetica Neue';
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.map .map-div {
+    width: 1043px;
+    height: 580px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
