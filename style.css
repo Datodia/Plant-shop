@@ -83,6 +83,7 @@ header .account {
     background-color: #01601B;
     color: white;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .about .social {
@@ -144,6 +145,7 @@ header .account {
     font-weight: 500;
     color: #01601B;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .plants .cards .card .btn:hover {
